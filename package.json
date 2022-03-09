@@ -1,0 +1,33 @@
+{
+  "name": "ledger-app",
+  "version": "1.0.0",
+  "description": "e-wallet app",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "chimapresh@gmail.com"
+  },
+  "author": "JP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validation": "^3.0.8",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "passport": "^0.5.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
