@@ -10,6 +10,7 @@ connectDB();
 
 //routes file
 const accounts = require('./routes/account');
+const transactions = require('./routes/transactions');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Mount routers
 app.use('/accounts', accounts);
+app.use('/', transactions);
 
 
 
